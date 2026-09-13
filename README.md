@@ -18,3 +18,4 @@ A backend Blog API built with FastAPI and PostgreSQL.
 - PostgreSQL
 - SQLAlchemy
 - JWT
+
