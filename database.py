@@ -5,6 +5,6 @@ DATABASE_URL="postgresql://postgres:12345@localhost/blogDB"
 
 engine=create_engine(DATABASE_URL)
 
-SesseionLocal=sessionmaker(bind=engine)
+SessionLocal=sessionmaker(bind=engine)
 
 Base=declarative_base() # It returns a class
